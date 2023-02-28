@@ -126,6 +126,17 @@ h1 {
   margin-bottom: 0.7em;
 }
 
+article h1 span{
+  position : relative;
+}
+
+article h1 span svg{
+  width: 8em;
+  position: absolute;
+  bottom: -20px;
+  right: 5px;
+}
+
 p,
 address,
 ul,
@@ -150,6 +161,16 @@ h1 + p {
     font-size: 1.8rem;
     font-weight: 700;
   }
+  article h1 span{
+    position : relative;
+  }
+  
+  article h1 span svg{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+  }
+  
 }
 
 @media screen and (min-width: 500px) {
@@ -172,6 +193,16 @@ h1 + p {
 @media screen and (min-width: 700px) {
   h1 {
     font-size: 3.6rem;
+  }
+  article h1 span{
+    position : relative;
+  }
+  
+  article h1 span svg{
+    width: 15em;
+    position: absolute;
+    bottom: -20px;
+    right: -160px;
   }
 }
 
