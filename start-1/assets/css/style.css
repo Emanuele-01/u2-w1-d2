@@ -391,16 +391,94 @@ footer {
   font-size: 1.2rem;
 }
 
-@media screen and (min-width: 800px) {
-  footer {
-    padding: 1em 12em;
-  }
+#a_capo {
+  border: 1px solid #000;
+  background-color: gray;
+  padding: 5px;
+  color: #000;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+#youtube {
+  border: 1px solid #000;
+  background-color: gray;
+  padding: 5px;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+#social {
+  border: 1px solid #000;
+  background-color: gray;
+  padding: 5px;
+  color: blue;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 140px;
+  right: 15px;
+  font-size: 1.2em;
+  opacity: 0.8;
 }
 
 footer a {
   color: fuchsia;
 }
 
+@media screen and (min-width: 800px) {
+  footer {
+    padding: 1em 12em;
+  }
+  #a_capo {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  #youtube {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: red;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  #social {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: blue;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+}
 @media screen and (min-width: 1200px) {
   header,
   main,
@@ -408,6 +486,45 @@ footer a {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #a_capo {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  #youtube {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: red;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
+  }
+  #social {
+    border: 1px solid #000;
+    background-color: gray;
+    padding: 5px;
+    color: blue;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    right: 15px;
+    font-size: 1.2em;
+    opacity: 0.8;
   }
 }
 
